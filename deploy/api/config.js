@@ -1,10 +1,10 @@
 module.exports =  {
     ACCESS_TOKEN_SECRET : "EMMA123",
     BDD : {
-    "host" :"dpg-clvf4ida73kc73bp3kfg-a.oregon-postgres.render.com",
+    "host" :"dpg-cm23hoq1hbls73bu48ig-a.frankfurt-postgres.render.com",
     "port" : "",
-    "user" : "cnam_db_akkt_user",
-    "password" : "I8TW2jVgiSyQDguxH8De6kWjgJ6VjoR4",
-    "bdname" :"cnam_db_akkt" 
+    "user" : "cnamdocker_zsq0_user",
+    "password" : "NaVoN4poZmzY2bfEQzGuqevBHGWRC928",
+    "bdname" :"cnamdocker_zsq0" 
     }
 }
