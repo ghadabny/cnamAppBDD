@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
  && rm -rf /var/lib/apt/lists/* \
  && a2enmod proxy \
  && a2enmod proxy_http \
+ && a2enmod rewrite \
  &&  npm install \
  &&  npm install pm2 -g \
  &&  env PATH=$PATH:/usr/local/lib/node_modules/pm2/bin/pm2
